@@ -1,10 +1,5 @@
 import { useState } from 'react';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  HashRouter,
-} from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { useSelector } from 'react-redux';
 import { darkMode, lightMode } from './Componentes/UI/themes';

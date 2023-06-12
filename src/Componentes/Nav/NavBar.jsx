@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { setShowMenu } from '../../store/slices/ShowMenu.slice.jsx';
+import { setShowMenu } from '../../store/slices/showMenu.slice.jsx';
 import { menuItems } from '../../info.js';
 import logo from '../../assets/images/logoWhite.png';
 import { BsSun, BsMoon } from 'react-icons/bs';

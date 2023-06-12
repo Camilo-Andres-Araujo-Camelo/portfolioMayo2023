@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { setShowMenu } from '../../store/slices/ShowMenu.slice.jsx';
+import { setShowMenu } from '../../store/slices/showMenu.slice.jsx';
 import styled from 'styled-components';
 import { menuItems } from '../../info.js';
 

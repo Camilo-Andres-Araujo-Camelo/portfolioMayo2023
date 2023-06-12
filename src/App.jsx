@@ -20,14 +20,14 @@ function App() {
     <>
       <ThemeProvider theme={theme ? darkMode : lightMode}>
         <GlobalStyle />
-        <Router>
+        <HashRouter>
           {showMenu && <DropdownMenu />}
           <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Home" element={<Home />} />
           </Routes>
-        </Router>
+        </HashRouter>
       </ThemeProvider>
     </>
   );

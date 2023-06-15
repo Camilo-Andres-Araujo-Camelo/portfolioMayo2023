@@ -20,7 +20,7 @@ const HeaderWrapper = styled.div`
   margin-bottom: 40px;
 
   @media screen and (min-width: 600px) {
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 950px) {
       height: calc(100vw - 65px);
     }
   }

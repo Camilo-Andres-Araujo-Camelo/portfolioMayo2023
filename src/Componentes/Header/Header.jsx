@@ -18,6 +18,12 @@ const HeaderWrapper = styled.div`
   position: relative;
   top: 65px;
   margin-bottom: 40px;
+
+  @media screen and (min-width: 600px) {
+    @media screen and (max-width: 800px) {
+      height: calc(100vw - 65px);
+    }
+  }
 `;
 
 const MainContainer = styled.div`
@@ -142,7 +148,7 @@ const Path3 = styled(Path)`
 
 const Header = () => {
   return (
-    <HeaderWrapper>
+    <HeaderWrapper className="HeaderWrapper">
       <MainContainer>
         <DescriptionContainer>
           <Title>
